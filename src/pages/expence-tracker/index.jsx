@@ -65,6 +65,7 @@ const {balance , income , expenses} = transactionTotals
               placeholder="Description"
               value={description}
               required
+              className="inputfield"
               onChange={(e) => setDescription(e.target.value)}
             />
             <input
@@ -72,6 +73,7 @@ const {balance , income , expenses} = transactionTotals
               placeholder="Amount"
               value={transactionAmount}
               required
+              className="inputfield"
               onChange={(e) => setTransactionAmount(e.target.value)}
             />
             <input
@@ -112,7 +114,7 @@ const {balance , income , expenses} = transactionTotals
                 const { description, transactionAmount, transactionType } =
                   transaction;
                 return (
-                  <li>
+                  <li >
                     <h4> {description} </h4>
                     <p>
                       {""}${transactionAmount} . {""}
