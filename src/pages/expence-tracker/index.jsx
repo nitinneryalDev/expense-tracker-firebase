@@ -92,7 +92,7 @@ const {balance , income , expenses} = transactionTotals
               onChange={(e) => setTrasactionType(e.target.value)}
             />
             <label htmlFor="income">Income</label>
-            <button type="submit">Add transaction</button>
+            <button className="submit-button" type="submit">Add transaction</button>
           </form>
         </div>
         {profilePhoto && (

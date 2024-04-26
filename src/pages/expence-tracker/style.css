@@ -51,11 +51,23 @@
 .transactions {
     margin:20px auto auto auto ;
     padding-left:10px;
-    width:1000px;
+    width:70%;
     height:300px;
     overflow-y:auto ;
-    
+    background-color: #d7c6c057;
 }
 .inputfield {
-    padding: 10px;;
+    padding: 10px;
+    border:1px solid grey;
+    border-radius:4px;
+    margin-right:2px;
+}
+
+.submit-button {
+    background-color: green;
+    border-radius:4px;
+    padding:10px;
+    color:white;
+    border:none;
+
 }
